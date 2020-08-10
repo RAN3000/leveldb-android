@@ -6,8 +6,6 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.4.1'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7'
     }
 }
 
@@ -15,9 +13,5 @@ allprojects {
     repositories {
         google()
         jcenter()
-        mavenCentral()
-        maven {
-            url "http://dl.bintray.com/stojan/android"
-        }
     }
 }
