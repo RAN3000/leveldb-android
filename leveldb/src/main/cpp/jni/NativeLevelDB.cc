@@ -45,7 +45,7 @@ extern "C" {
 #endif
 
 JNIEXPORT jlong JNICALL Java_com_github_hf_leveldb_implementation_NativeLevelDB_nativeOpen
-        (JNIEnv *env, jclass cself, jboolean createIfMissing, jint cacheSize, jint blockSize, jint writeBufferSize,
+        (JNIEnv *env, jclass cself, jboolean createIfMissing, jboolean paranoidChecks, jboolean reuseLogs, jboolean exceptionIfExists, jint cacheSize, jint blockSize, jint writeBufferSize, jint maxOpenFiles,
          jstring path) {
 
     const char *nativePath = env->GetStringUTFChars(path, 0);
@@ -63,16 +63,24 @@ JNIEXPORT jlong JNICALL Java_com_github_hf_leveldb_implementation_NativeLevelDB_
     options.create_if_missing = createIfMissing == JNI_TRUE;
     options.info_log = logger;
 
+    options.paranoid_checks = paranoidChecks == JNI_TRUE;
+    options.reuse_logs = reuseLogs == JNI_TRUE;
+    options.error_if_exists = exceptionIfExists == JNI_TRUE;
+
     if (cache != nullptr) {
         options.block_cache = cache;
     }
 
-    if (blockSize != 0) {
+    if (blockSize > 0) {
         options.block_size = (size_t) blockSize;
     }
 
-    if (writeBufferSize != 0) {
+    if (writeBufferSize > 0) {
         options.write_buffer_size = (size_t) writeBufferSize;
+    }
+
+    if (maxOpenFiles > 0) {
+        options.max_open_files = (int) maxOpenFiles;
     }
 
     leveldb::Status status = leveldb::DB::Open(options, nativePath, &db);

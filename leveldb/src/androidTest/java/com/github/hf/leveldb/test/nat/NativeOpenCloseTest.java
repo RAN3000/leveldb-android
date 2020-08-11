@@ -100,4 +100,27 @@ public class NativeOpenCloseTest extends DatabaseTestCase {
 
         assertThat(dbFile.exists()).isTrue();
     }
+
+    @Test
+    public void testExceptionIfFound() throws Exception {
+        assertThat(dbFile.exists()).isFalse();
+
+        boolean threw = false;
+
+        NativeLevelDB ndbA = new NativeLevelDB(dbFile.getAbsolutePath(), LevelDB.configure().createIfMissing(true).exceptionIfExists(true));
+
+        assertThat(dbFile.exists()).isTrue();
+
+        try {
+            NativeLevelDB ndbB = new NativeLevelDB(dbFile.getAbsolutePath(), LevelDB.configure().createIfMissing(true).exceptionIfExists(true));
+        } catch (LevelDBException e) {
+            threw = true;
+        }
+
+        assertThat(dbFile.exists()).isTrue();
+
+        ndbA.close();
+
+        assertThat(threw).isTrue();
+    }
 }
