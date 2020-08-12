@@ -176,10 +176,6 @@ JNIEXPORT jbyteArray JNICALL Java_com_github_hf_leveldb_implementation_NativeLev
     env->ReleaseByteArrayElements(key, (jbyte *) keyData, 0);
 
     if (status.ok()) {
-        if (value.length() < 1) {
-            return 0;
-        }
-
         jbyteArray retval = env->NewByteArray(value.length());
 
         env->SetByteArrayRegion(retval, 0, value.length(), (jbyte *) value.data());
