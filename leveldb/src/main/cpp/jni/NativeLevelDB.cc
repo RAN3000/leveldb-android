@@ -181,8 +181,6 @@ JNIEXPORT jbyteArray JNICALL Java_com_github_hf_leveldb_implementation_NativeLev
         env->SetByteArrayRegion(retval, 0, value.length(), (jbyte *) value.data());
 
         return retval;
-    } else if (status.IsNotFound()) {
-        return 0;
     }
 
     throwExceptionFromStatus(env, status);
