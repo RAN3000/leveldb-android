@@ -2,10 +2,10 @@
   "stringTable": {
     "0": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86",
     "1": "--target=i686-none-linux-android16 --gcc-toolchain=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dleveldb_android_EXPORTS -I../../../../src/main/cpp/leveldb/include -I../../../../src/main/cpp/leveldb/out/x86/include -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-rtti -O0 -fno-limit-debug-info -fPIC",
-    "2": "--target=i686-none-linux-android16 --gcc-toolchain=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DLEVELDB_PLATFORM_POSIX=1 -I../../../../src/main/cpp/leveldb/out/x86/include -I../../../../src/main/cpp/leveldb -I../../../../src/main/cpp/leveldb/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-rtti -fno-exceptions -fno-rtti -O0 -fno-limit-debug-info -fPIE -Werror -Wthread-safety -std=c++11",
-    "3": "--target=i686-none-linux-android16 --gcc-toolchain=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I../../../../src/main/cpp/leveldb/out/x86/include -I../../../../src/main/cpp/leveldb -I../../../../src/main/cpp/leveldb/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-rtti -fno-exceptions -fno-rtti -O0 -fno-limit-debug-info -fPIC -Werror -Wthread-safety -std=c++11",
-    "4": "--target=i686-none-linux-android16 --gcc-toolchain=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DLEVELDB_PLATFORM_POSIX=1 -I../../../../src/main/cpp/leveldb/out/x86/include -I../../../../src/main/cpp/leveldb -I../../../../src/main/cpp/leveldb/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -Wstrict-prototypes -O0 -fno-limit-debug-info -fPIE -Werror -Wthread-safety -std=c11",
-    "5": "--target=i686-none-linux-android16 --gcc-toolchain=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -I../../../../src/main/cpp/leveldb/out/x86/include -I../../../../src/main/cpp/leveldb -I../../../../src/main/cpp/leveldb/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-rtti -fno-exceptions -fno-rtti -O0 -fno-limit-debug-info -fPIE -Werror -Wthread-safety -std=c++11"
+    "2": "--target=i686-none-linux-android16 --gcc-toolchain=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DLEVELDB_PLATFORM_POSIX=1 -Isrc/main/cpp/leveldb/out/x86/include -I../../../../src/main/cpp/leveldb -I../../../../src/main/cpp/leveldb/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-rtti -fno-exceptions -fno-rtti -O0 -fno-limit-debug-info -fPIE -Werror -Wthread-safety -std=c++11",
+    "3": "--target=i686-none-linux-android16 --gcc-toolchain=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Isrc/main/cpp/leveldb/out/x86/include -I../../../../src/main/cpp/leveldb -I../../../../src/main/cpp/leveldb/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-rtti -fno-exceptions -fno-rtti -O0 -fno-limit-debug-info -fPIC -Werror -Wthread-safety -std=c++11",
+    "4": "--target=i686-none-linux-android16 --gcc-toolchain=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DLEVELDB_PLATFORM_POSIX=1 -Isrc/main/cpp/leveldb/out/x86/include -I../../../../src/main/cpp/leveldb -I../../../../src/main/cpp/leveldb/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -Wstrict-prototypes -O0 -fno-limit-debug-info -fPIE -Werror -Wthread-safety -std=c11",
+    "5": "--target=i686-none-linux-android16 --gcc-toolchain=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giacomo/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Isrc/main/cpp/leveldb/out/x86/include -I../../../../src/main/cpp/leveldb -I../../../../src/main/cpp/leveldb/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-rtti -fno-exceptions -fno-rtti -O0 -fno-limit-debug-info -fPIE -Werror -Wthread-safety -std=c++11"
   },
   "buildFiles": [
     "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/CMakeLists.txt",
@@ -44,7 +44,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -56,10 +56,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/bloom_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/bloom_test",
+      "runtimeFiles": []
     },
     "no_destructor_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" no_destructor_test",
@@ -86,7 +84,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -98,10 +96,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/no_destructor_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/no_destructor_test",
+      "runtimeFiles": []
     },
     "table_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" table_test",
@@ -128,7 +124,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -140,10 +136,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/table_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/table_test",
+      "runtimeFiles": []
     },
     "filename_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" filename_test",
@@ -170,7 +164,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -182,10 +176,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/filename_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/filename_test",
+      "runtimeFiles": []
     },
     "leveldb-android-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" leveldb-android",
@@ -212,9 +204,7 @@
       ],
       "headers": [],
       "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/build/intermediates/cmake/debug/obj/x86/libleveldb-android.so",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "runtimeFiles": []
     },
     "dbformat_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" dbformat_test",
@@ -241,7 +231,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -253,10 +243,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/dbformat_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/dbformat_test",
+      "runtimeFiles": []
     },
     "c_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" c_test",
@@ -283,7 +271,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -295,10 +283,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/c_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/c_test",
+      "runtimeFiles": []
     },
     "fault_injection_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" fault_injection_test",
@@ -325,7 +311,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -337,10 +323,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/fault_injection_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/fault_injection_test",
+      "runtimeFiles": []
     },
     "filter_block_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" filter_block_test",
@@ -367,7 +351,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -379,10 +363,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/filter_block_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/filter_block_test",
+      "runtimeFiles": []
     },
     "corruption_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" corruption_test",
@@ -409,7 +391,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -421,10 +403,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/corruption_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/corruption_test",
+      "runtimeFiles": []
     },
     "recovery_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" recovery_test",
@@ -451,7 +431,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -463,10 +443,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/recovery_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/recovery_test",
+      "runtimeFiles": []
     },
     "leveldb-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" leveldb",
@@ -668,7 +646,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -872,7 +850,7 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a",
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/libleveldb.a",
       "runtimeFiles": []
     },
     "write_batch_test-Debug-x86": {
@@ -900,7 +878,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -912,10 +890,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/write_batch_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/write_batch_test",
+      "runtimeFiles": []
     },
     "memenv_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" memenv_test",
@@ -942,7 +918,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -954,10 +930,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/memenv_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/memenv_test",
+      "runtimeFiles": []
     },
     "skiplist_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" skiplist_test",
@@ -984,7 +958,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -996,10 +970,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/skiplist_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/skiplist_test",
+      "runtimeFiles": []
     },
     "log_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" log_test",
@@ -1026,7 +998,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -1038,10 +1010,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/log_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/log_test",
+      "runtimeFiles": []
     },
     "cache_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" cache_test",
@@ -1068,7 +1038,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -1080,10 +1050,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/cache_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/cache_test",
+      "runtimeFiles": []
     },
     "autocompact_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" autocompact_test",
@@ -1110,7 +1078,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -1122,10 +1090,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/autocompact_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/autocompact_test",
+      "runtimeFiles": []
     },
     "arena_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" arena_test",
@@ -1152,7 +1118,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -1164,52 +1130,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/arena_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
-    },
-    "issue200_test-Debug-x86": {
-      "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" issue200_test",
-      "buildType": "debug",
-      "toolchain": "438186464",
-      "abi": "x86",
-      "artifactName": "issue200_test",
-      "files": [
-        {
-          "src": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/util/testharness.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/util/testutil.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/issues/issue200_test.cc",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        }
-      ],
-      "headers": [
-        {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/util/testharness.h",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/util/testutil.h",
-          "workingDirectoryOrdinal": 0
-        }
-      ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/issue200_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/arena_test",
+      "runtimeFiles": []
     },
     "hash_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" hash_test",
@@ -1236,7 +1158,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -1248,10 +1170,48 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/hash_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/hash_test",
+      "runtimeFiles": []
+    },
+    "issue200_test-Debug-x86": {
+      "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" issue200_test",
+      "buildType": "debug",
+      "toolchain": "438186464",
+      "abi": "x86",
+      "artifactName": "issue200_test",
+      "files": [
+        {
+          "src": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/util/testharness.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/util/testutil.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/issues/issue200_test.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/util/testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/util/testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/issue200_test",
+      "runtimeFiles": []
     },
     "issue320_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" issue320_test",
@@ -1278,7 +1238,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -1290,10 +1250,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/issue320_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/issue320_test",
+      "runtimeFiles": []
     },
     "version_edit_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" version_edit_test",
@@ -1320,7 +1278,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -1332,10 +1290,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/version_edit_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/version_edit_test",
+      "runtimeFiles": []
     },
     "version_set_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" version_set_test",
@@ -1362,7 +1318,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -1374,10 +1330,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/version_set_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/version_set_test",
+      "runtimeFiles": []
     },
     "status_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" status_test",
@@ -1404,7 +1358,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -1416,10 +1370,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/status_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/status_test",
+      "runtimeFiles": []
     },
     "logging_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" logging_test",
@@ -1446,7 +1398,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -1458,10 +1410,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/logging_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/logging_test",
+      "runtimeFiles": []
     },
     "issue178_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" issue178_test",
@@ -1488,7 +1438,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -1500,10 +1450,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/issue178_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/issue178_test",
+      "runtimeFiles": []
     },
     "env_posix_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" env_posix_test",
@@ -1530,7 +1478,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -1542,10 +1490,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/env_posix_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/env_posix_test",
+      "runtimeFiles": []
     },
     "crc32c_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" crc32c_test",
@@ -1572,7 +1518,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -1584,10 +1530,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/crc32c_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/crc32c_test",
+      "runtimeFiles": []
     },
     "db_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" db_test",
@@ -1614,7 +1558,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -1626,10 +1570,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/db_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/db_test",
+      "runtimeFiles": []
     },
     "env_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" env_test",
@@ -1656,7 +1598,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -1668,10 +1610,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/env_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/env_test",
+      "runtimeFiles": []
     },
     "db_bench-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" db_bench",
@@ -1703,7 +1643,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -1719,10 +1659,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/db_bench",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/db_bench",
+      "runtimeFiles": []
     },
     "leveldbutil-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" leveldbutil",
@@ -1738,10 +1676,8 @@
         }
       ],
       "headers": [],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/leveldbutil",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/leveldbutil",
+      "runtimeFiles": []
     },
     "coding_test-Debug-x86": {
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86\" coding_test",
@@ -1768,7 +1704,7 @@
       ],
       "headers": [
         {
-          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
+          "header": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/include/port/port_config.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -1780,10 +1716,8 @@
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/coding_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/debug/x86/src/main/cpp/leveldb/out/x86/coding_test",
+      "runtimeFiles": []
     }
   },
   "toolchains": {

@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.9)
 
 set(levelDB_src_DIR "src/main/cpp/leveldb")
 
-set(levelDB_build_DIR "${PROJECT_SOURCE_DIR}/src/main/cpp/leveldb/out/${ANDROID_ABI}")
+set(levelDB_build_DIR "src/main/cpp/leveldb/out/${ANDROID_ABI}")
 file(MAKE_DIRECTORY ${levelDB_build_DIR})
 
 file(GLOB list src/main/cpp/jni/*.cc)

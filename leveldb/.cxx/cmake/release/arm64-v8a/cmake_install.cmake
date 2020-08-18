@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/arm64-v8a/cmake_install.cmake")
+  include("/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/arm64-v8a/src/main/cpp/leveldb/out/arm64-v8a/cmake_install.cmake")
 
 endif()
 

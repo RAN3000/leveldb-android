@@ -15,305 +15,239 @@
       "artifactName": "env_posix_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" env_posix_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/env_posix_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/env_posix_test",
+      "runtimeFiles": []
     },
     "issue178_test-Release-x86": {
       "artifactName": "issue178_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" issue178_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/issue178_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
-    },
-    "table_test-Release-x86": {
-      "artifactName": "table_test",
-      "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" table_test",
-      "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/table_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/issue178_test",
+      "runtimeFiles": []
     },
     "corruption_test-Release-x86": {
       "artifactName": "corruption_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" corruption_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/corruption_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/corruption_test",
+      "runtimeFiles": []
     },
-    "leveldbutil-Release-x86": {
-      "artifactName": "leveldbutil",
-      "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" leveldbutil",
+    "table_test-Release-x86": {
+      "artifactName": "table_test",
+      "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" table_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/leveldbutil",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/table_test",
+      "runtimeFiles": []
     },
     "db_bench-Release-x86": {
       "artifactName": "db_bench",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" db_bench",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/db_bench",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/db_bench",
+      "runtimeFiles": []
+    },
+    "leveldbutil-Release-x86": {
+      "artifactName": "leveldbutil",
+      "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" leveldbutil",
+      "abi": "x86",
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/leveldbutil",
+      "runtimeFiles": []
     },
     "recovery_test-Release-x86": {
       "artifactName": "recovery_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" recovery_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/recovery_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/recovery_test",
+      "runtimeFiles": []
     },
     "filter_block_test-Release-x86": {
       "artifactName": "filter_block_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" filter_block_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/filter_block_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/filter_block_test",
+      "runtimeFiles": []
     },
     "skiplist_test-Release-x86": {
       "artifactName": "skiplist_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" skiplist_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/skiplist_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/skiplist_test",
+      "runtimeFiles": []
     },
     "status_test-Release-x86": {
       "artifactName": "status_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" status_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/status_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/status_test",
+      "runtimeFiles": []
     },
     "bloom_test-Release-x86": {
       "artifactName": "bloom_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" bloom_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/bloom_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/bloom_test",
+      "runtimeFiles": []
     },
     "autocompact_test-Release-x86": {
       "artifactName": "autocompact_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" autocompact_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/autocompact_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/autocompact_test",
+      "runtimeFiles": []
     },
     "arena_test-Release-x86": {
       "artifactName": "arena_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" arena_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/arena_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/arena_test",
+      "runtimeFiles": []
     },
     "db_test-Release-x86": {
       "artifactName": "db_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" db_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/db_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/db_test",
+      "runtimeFiles": []
     },
     "c_test-Release-x86": {
       "artifactName": "c_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" c_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/c_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/c_test",
+      "runtimeFiles": []
     },
     "fault_injection_test-Release-x86": {
       "artifactName": "fault_injection_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" fault_injection_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/fault_injection_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/fault_injection_test",
+      "runtimeFiles": []
     },
     "no_destructor_test-Release-x86": {
       "artifactName": "no_destructor_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" no_destructor_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/no_destructor_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/no_destructor_test",
+      "runtimeFiles": []
     },
     "issue320_test-Release-x86": {
       "artifactName": "issue320_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" issue320_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/issue320_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/issue320_test",
+      "runtimeFiles": []
     },
     "log_test-Release-x86": {
       "artifactName": "log_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" log_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/log_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/log_test",
+      "runtimeFiles": []
     },
     "hash_test-Release-x86": {
       "artifactName": "hash_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" hash_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/hash_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/hash_test",
+      "runtimeFiles": []
     },
     "version_set_test-Release-x86": {
       "artifactName": "version_set_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" version_set_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/version_set_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/version_set_test",
+      "runtimeFiles": []
     },
     "crc32c_test-Release-x86": {
       "artifactName": "crc32c_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" crc32c_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/crc32c_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/crc32c_test",
+      "runtimeFiles": []
     },
     "leveldb-Release-x86": {
       "artifactName": "leveldb",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" leveldb",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a",
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/libleveldb.a",
       "runtimeFiles": []
     },
     "env_test-Release-x86": {
       "artifactName": "env_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" env_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/env_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/env_test",
+      "runtimeFiles": []
     },
     "memenv_test-Release-x86": {
       "artifactName": "memenv_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" memenv_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/memenv_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/memenv_test",
+      "runtimeFiles": []
     },
     "write_batch_test-Release-x86": {
       "artifactName": "write_batch_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" write_batch_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/write_batch_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/write_batch_test",
+      "runtimeFiles": []
     },
     "cache_test-Release-x86": {
       "artifactName": "cache_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" cache_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/cache_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/cache_test",
+      "runtimeFiles": []
     },
     "version_edit_test-Release-x86": {
       "artifactName": "version_edit_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" version_edit_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/version_edit_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/version_edit_test",
+      "runtimeFiles": []
     },
     "filename_test-Release-x86": {
       "artifactName": "filename_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" filename_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/filename_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/filename_test",
+      "runtimeFiles": []
     },
     "coding_test-Release-x86": {
       "artifactName": "coding_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" coding_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/coding_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/coding_test",
+      "runtimeFiles": []
     },
     "leveldb-android-Release-x86": {
       "artifactName": "leveldb-android",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" leveldb-android",
       "abi": "x86",
       "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/build/intermediates/cmake/release/obj/x86/libleveldb-android.so",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "runtimeFiles": []
     },
     "issue200_test-Release-x86": {
       "artifactName": "issue200_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" issue200_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/issue200_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/issue200_test",
+      "runtimeFiles": []
     },
     "logging_test-Release-x86": {
       "artifactName": "logging_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" logging_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/logging_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/logging_test",
+      "runtimeFiles": []
     },
     "dbformat_test-Release-x86": {
       "artifactName": "dbformat_test",
       "buildCommand": "/home/giacomo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86\" dbformat_test",
       "abi": "x86",
-      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/dbformat_test",
-      "runtimeFiles": [
-        "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/src/main/cpp/leveldb/out/x86/libleveldb.a"
-      ]
+      "output": "/home/giacomo/Code/altro/Orbit/leveldb-android/leveldb/.cxx/cmake/release/x86/src/main/cpp/leveldb/out/x86/dbformat_test",
+      "runtimeFiles": []
     }
   }
 }
