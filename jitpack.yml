@@ -1,0 +1,2 @@
+before_install:
+    - ./update_submodules.sh
